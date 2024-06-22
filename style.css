@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 149, 0);
   width: 40rem;
   height: 25rem;
   border-radius: 8px;
@@ -79,7 +79,7 @@ body {
 }
 
 .container-popup {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 149, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,7 +125,7 @@ body {
   }
 
   .container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 149, 0);
     width: 50rem;
     height: 35rem;
     border-radius: 8px;
@@ -190,8 +190,8 @@ body {
   }
 
   .container-popup {
-    background-color: rgb(255, 255, 255);
-    display: flex;
+    background-color: rgb(255, 149, 0);
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -206,6 +206,7 @@ body {
   }
   .popup {
     scale: 100%;
+    display: flex;
   }
   .container-popup h4 {
     font-size: 3rem;
