@@ -13,11 +13,14 @@ function khodamAnda() {
   const hasil = document.getElementById("khodam");
   const khodams = [
     "Tidak Memiliki khodam",
+    "Tidak Memiliki khodam",
     "Ambatukam",
     "Si imut",
     "Mas Rusdi",
     "Ambatron",
     "Ambacong",
+    "Mas Fuad",
+    "Mr.Ironi",
   ];
   const randomKhodams = Math.floor(Math.random() * khodams.length);
   const hasilTeks = khodams[randomKhodams];
