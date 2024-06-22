@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Cek Khodam Ngawi</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CEK KHODAM ANDA</h1>
+        <h2>( Versi Ngawi )</h2>
+        <div class="container-input">
+            <input class="name" type="text" id="inputNama" placeholder="Masukan Nama Anda">
+            <p id="warning"></p>
+            <button class="button" id="cekSekarang" onclick="khodamAnda()">Cek Sekarang</button>
+            <a href="">&copy; Fahri</a>
+        </div>
+        <div class="container-popup" id="popup">
+            <h4>Khodam kamu adalah :</h4>
+            <h4 id="khodam"></h4>
+            <button id="back" onclick="back()">OK</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
